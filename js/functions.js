@@ -26,3 +26,8 @@ function returnNumber(string) {
   }
   return parseInt(result, 10);
 }
+
+// Проверка функций
+checkLengthString('проверка', 10);
+checkPalindrome('Проверка');
+returnNumber('2026 год');
