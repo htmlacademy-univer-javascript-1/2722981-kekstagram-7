@@ -75,4 +75,8 @@ const createPhoto = (id) => ({
 });
 
 // Массив из 25 фотографий
-const photos = Array.from({length: PHOTO_COUNT}, (_, index) => createPhoto(index + 1));
+const photos = [];
+
+for (let i = 1; i <= PHOTO_COUNT; i++) {
+  photos.push(createPhoto(i));
+}
