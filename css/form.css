@@ -1,0 +1,12 @@
+.img-upload__error {
+  margin: 6px 0 12px;
+  color: #ffb3b3;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.img-upload__field-wrapper--invalid .text__hashtags,
+.img-upload__field-wrapper--invalid .text__description {
+  outline: 2px solid #ff6b6b;
+}
